@@ -4,11 +4,23 @@
     detail: Kopernikus Automotive Gmbh
     i18n: company_a
   desc:
-    detail: 1. Various implementations of 2D objection object detectors like YOLO
-
-            2. Yolo with Tensor-RT on jetson Nano and Tx2
-            3. 
-    i18n: company_a_desc
+    detail:
+      <ul>
+      <li>Various implementations of 2D objection object detectors like YOLO</li>
+      <li>Yolo with Tensor-RT on jetson Nano and Tx2</li>
+      <li>Adding new objects into AI pipeline, eg. cones, bikes. Writing scripts for data augmentaion</li>
+      <li>Integrating data augmentetion scripts into Keras RetinaNet and Perception stack</li>
+      <li>3D object detection from monocular images - Literature survey and open source model(s) implementaiton</li>
+      <li>Creating new dataset for special type of object detection and solving edge cases, eg. masked cars in a parking space</li>
+      <li>Participating in autonomous driving race with donkey car</li>
+      <li>3D Lidar- models Literature survey and open source model(s) implementation</li>
+      <li>Stereo CAM for depth detection</li>
+      <li>Generating synthetic dataset for 2D, 3D object detection from CARLA simulator (Images and Lidar pointclouds)</li>
+      <li>Improving the data pipeline with scripts for Deduplication of images</li>
+      <li>EfficientDet (2d object detection) implementation</li>
+      <li>Creating dataset from parking videos (cropping, datalabeling, active learning)</li>
+      </ul>
+    i18n: company_a
   date:
     detail: Aug 2019 to April 2020
     i18n: company_a_date
