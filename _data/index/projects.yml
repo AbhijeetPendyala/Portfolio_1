@@ -15,10 +15,9 @@
   img: /static/assets/img/landing/collage_1.jpg
   desc: Scripts to create datasests for detection of unknown objects ( cones, masked cars etc)
 
-- name: Synthetic dataset generation
+- name: Deduplication of images
   i18n: cpython
   gh_user: AbhijeetPendyala
   repo: Image_deduplication
-  img: /static/assets/img/landing/dedup.jpg
+  img: /static/assets/img/landing/dedup.png
   desc: Removing near duplicates and exact duplicates using similarity and deep learning
-
