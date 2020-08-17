@@ -40,4 +40,28 @@
         });
         </script>
     </div>
+    <div class="row features-block">
+        <div class="wow zoomIn col-lg-6 col-lg-offset-3">
+            <canvas id="{{ site.data.index.skills_2.id }}" height="500" width="500"></canvas>
+        </div>
+        <div class="col-lg-1"></div>
+        <script>
+        var ctx2 = document.getElementById("{{ site.data.index.skills_2.id }}");
+        var data2 =
+            {
+            labels: "{{ site.data.index.skills_2.aspects }}".split(","),
+            datasets: [{
+                data: [{{ site.data.index.skills_2.percentage}}]}],
+            };
+        var data3 =
+            {labels: ['Red', 'Yellow', 'Blue'], datasets: [
+                {data: [10, 20, 30],
+                backgroundColor: ['yellow', 'blue', 'green'],}
+                ]};
+        var mypolararea = new Chart(ctx2, {
+            type: 'polarArea',
+            data: data2,
+        });
+        </script>
+    </div>
 </div>

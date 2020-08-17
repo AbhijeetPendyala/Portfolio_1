@@ -5,19 +5,37 @@
   i18n: jalpc
   gh_user: AbhijeetPendyala
   repo: CarlaDatasetGeneration
-  img: /static/assets/img/landing/carla.gif
+  img: /static/assets/img/landing/carla_2.gif
   desc: Scripts to obtain 2D, 3D bounding boxes from CARLA simulator for autonomous driving
+
+
+- name: Deduplication of images
+  i18n: cpython
+  gh_user: AbhijeetPendyala
+  repo: Master_thesis
+  img: /static/assets/img/landing/dedup.png
+  desc: Removing near duplicates and exact duplicates using similarity and deep learning
 
 - name: Synthetic dataset generation
   i18n: cpython
   gh_user: AbhijeetPendyala
   repo: SyntheticDatasetGeneration
-  img: /static/assets/img/landing/collage_1.jpg
+  img: /static/assets/img/landing/collage_2.jpg
   desc: Scripts to create datasests for detection of unknown objects ( cones, masked cars etc)
 
-- name: Deduplication of images
+- name: Weather assistant- chatbot
   i18n: cpython
   gh_user: AbhijeetPendyala
-  repo: Image_deduplication
-  img: /static/assets/img/landing/dedup.png
-  desc: Removing near duplicates and exact duplicates using similarity and deep learning
+  repo: RASA_weather_bot
+  img: /static/assets/img/landing/weatherbot.png
+  desc:
+
+
+- name: Non-convex optimization
+  i18n: cpython
+  gh_user: AbhijeetPendyala
+  repo: Master_thesis
+  img: /static/assets/img/landing/svm.gif
+  desc:
+    <p>Applying budget maintenance strategy on Adaptive coordinate frequency-coorindate descent method
+    <p/>
