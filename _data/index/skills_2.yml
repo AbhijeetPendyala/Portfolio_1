@@ -1,0 +1,6 @@
+# skills section data
+
+label: Ability
+id : cs
+aspects: Git, Pandas, Tensorflow, Pytorch, Latex, Python, C++
+percentage: 90, 65, 70, 65, 80, 90, 70
