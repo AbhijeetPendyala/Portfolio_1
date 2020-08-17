@@ -4,3 +4,8 @@ label: Ability
 id : cs
 aspects: Git, Pandas, Tensorflow, Pytorch, Latex, Python, C++
 percentage: 90, 65, 70, 65, 80, 90, 70
+
+label: Ability2
+id : cs2
+aspects: Git, Pandas, Tensorflow, Pytorch, Latex, Python, C++, Docker, CI/CD
+percentage: 90, 65, 70, 65, 80, 90, 70 , 70, 60
