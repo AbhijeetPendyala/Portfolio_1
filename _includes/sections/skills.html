@@ -50,8 +50,12 @@
         var data2 =
             {
             labels: "{{ site.data.index.skills_2.aspects }}".split(","),
-            datasets: [{
-                data: [{{ site.data.index.skills_2.percentage}}]}],
+            datasets:
+                [{
+                data: [{{ site.data.index.skills_2.percentage
+                       }} ],
+                backgroundColor: ['Red', 'Yellow', 'Blue', 'Orange', 'Purple', 'Green', 'Pink'],
+                 }],
             };
         var data3 =
             {labels: ['Red', 'Yellow', 'Blue'], datasets: [
