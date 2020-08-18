@@ -3,6 +3,14 @@
     "data" : [
      
     {
+        "title" : "Quick GIT commands - 2017-05-19",
+        "url" : "/gcp/2017/05/19/Git-Commands.html"
+    }
+    
+    ,
+    
+    
+    {
         "title" : "Adding or resizing a persistent or boot disk size  - 2017-03-17",
         "url" : "/gcp/2017/03/17/Adding-persistentdisk-GCP.html"
     }
@@ -13,14 +21,6 @@
     {
         "title" : "Accessing GCP cloud console - 2017-03-14",
         "url" : "/gcp/2017/03/14/Access-GCP.html"
-    }
-    
-    ,
-    
-    
-    {
-        "title" : "3 Steps (2 minutes) to Setup Your Personal Website with Jalpc - 2017-01-31",
-        "url" : "/html/2017/01/31/3-steps-to-setup-website-with-Jalpc.html"
     }
     
     
