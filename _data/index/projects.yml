@@ -13,28 +13,28 @@
   i18n: cpython
   gh_user: AbhijeetPendyala
   repo: Master_thesis
-  img: /static/assets/img/landing/dedup.png
+  img: /static/assets/img/landing/dedup_c.png
   desc: Removing near duplicates and exact duplicates using similarity and deep learning
 
 - name: Synthetic dataset generation
   i18n: cpython
   gh_user: AbhijeetPendyala
   repo: SyntheticDatasetGeneration
-  img: /static/assets/img/landing/collage_2.jpg
+  img: /static/assets/img/landing/collage_2_c.jpg
   desc: Scripts to create datasests for detection of unknown objects ( cones, masked cars etc)
 
 - name: Weather assistant- chatbot
   i18n: cpython
   gh_user: AbhijeetPendyala
   repo: RASA_weather_bot
-  img: /static/assets/img/landing/weatherbot.png
+  img: /static/assets/img/landing/weatherbot_c.png
   desc: A conversational chatbot using open source RASA library
 
 - name: Orthographic Feature Transform (wave.ai)
   i18n: cpython
   gh_user: AbhijeetPendyala
   repo: Orthographic_Feature_Transform
-  img: /static/assets/img/landing/oft_1.png
+  img: /static/assets/img/landing/oft_1_c.png
   desc: A Deep learning method to predict 3D bounding boxes on monocular images
 
 - name: Non-convex optimization
