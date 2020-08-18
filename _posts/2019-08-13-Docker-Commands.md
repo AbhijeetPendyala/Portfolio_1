@@ -125,32 +125,6 @@ docker pull/push IMAGE
 
 ```
 
-<ul>
-    <li> check remote status </li>  
-</ul>
-
-```
-git remote -v
-
-```
-
-<ul>
-    <li> Change remote (from old repo eg: previous company) to a new github repo ( first create a new repo and use its ssh link) </li>  
-</ul>
-
-```
-git remote set-url origin git@github.com:username/repo.git
-
-```
-
-<ul>
-    <li> To remove files from working tree and from index </li>  
-</ul>
-
-```
-git rm <file-name>
-
-```
 
 
 
