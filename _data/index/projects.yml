@@ -28,8 +28,14 @@
   gh_user: AbhijeetPendyala
   repo: RASA_weather_bot
   img: /static/assets/img/landing/weatherbot.png
-  desc:
+  desc: A conversational chatbot using open source RASA library
 
+- name: Orthographic Feature Transform (wave.ai)
+  i18n: cpython
+  gh_user: AbhijeetPendyala
+  repo: Orthographic_Feature_Transform
+  img: /static/assets/img/landing/oft_1.png
+  desc: A Deep learning method to predict 3D bounding boxes on monocular images
 
 - name: Non-convex optimization
   i18n: cpython
