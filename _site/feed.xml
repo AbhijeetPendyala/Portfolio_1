@@ -5,9 +5,190 @@
     <description>Abhijeet's blog,use Jekyll and github pages.</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 18 Aug 2020 13:37:49 +0200</pubDate>
-    <lastBuildDate>Tue, 18 Aug 2020 13:37:49 +0200</lastBuildDate>
+    <pubDate>Tue, 18 Aug 2020 15:35:05 +0200</pubDate>
+    <lastBuildDate>Tue, 18 Aug 2020 15:35:05 +0200</lastBuildDate>
     <generator>Jekyll v4.1.1</generator>
+    
+      <item>
+        <title>Docker Tips</title>
+        <description>&lt;ul&gt;
+    &lt;li&gt; list active docker images &lt;/li&gt;  
+&lt;/ul&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;docker ps -all
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;ul&gt;
+    &lt;li&gt; copy files into container  &lt;/li&gt;  
+&lt;/ul&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;docker cp upload.zip infallible_chebyshev:/workspace upload.zip 
+
+docker cp upload.zip b58e39a29aa7:/workspace upload.zip 
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;ul&gt;
+    &lt;li&gt; copy files from container to host  &lt;/li&gt;  
+&lt;/ul&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
+sudo docker cp 936ecaf3748b:/workspace/TensorRT-Yolov3/yolov3_fp16..engine ~ 
+
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;ul&gt;
+    &lt;li&gt; start new container from an Image &lt;/li&gt;  
+&lt;/ul&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
+docker run IMAGE
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;ul&gt;
+    &lt;li&gt; Adds the files in the local repository and stages them for commit, 
+        To stage specific file, use its filename &lt;/li&gt;  
+&lt;/ul&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;git add .
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;ul&gt;
+    &lt;li&gt;  Remove a container &lt;/li&gt;  
+&lt;/ul&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
+docker rm CONTAINER
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;ul&gt;
+    &lt;li&gt; start/stop a container  &lt;/li&gt;  
+&lt;/ul&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
+docker start/stop CONTAINER
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;ul&gt;
+    &lt;li&gt; open a terminal inside container &lt;/li&gt;  
+&lt;/ul&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;docker exec -it CONTAINER EXECUTABLE
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;ul&gt;
+    &lt;li&gt; Create an image from container &lt;/li&gt;  
+&lt;/ul&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;docker commit CONTAINER 
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;ul&gt;
+    &lt;li&gt; Remove and image &lt;/li&gt;  
+&lt;/ul&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;docker rmi IMAGE
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;ul&gt;
+    &lt;li&gt; Build image from docker file &lt;/li&gt;  
+&lt;/ul&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;docker build DIRECTORY
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;ul&gt;
+    &lt;li&gt; Download or upload image &lt;/li&gt;  
+&lt;/ul&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;docker pull/push IMAGE
+
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;ul&gt;
+    &lt;li&gt; check remote status &lt;/li&gt;  
+&lt;/ul&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;git remote -v
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;ul&gt;
+    &lt;li&gt; Change remote (from old repo eg: previous company) to a new github repo ( first create a new repo and use its ssh link) &lt;/li&gt;  
+&lt;/ul&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;git remote set-url origin git@github.com:username/repo.git
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;ul&gt;
+    &lt;li&gt; To remove files from working tree and from index &lt;/li&gt;  
+&lt;/ul&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;git rm &amp;lt;file-name&amp;gt;
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;hr /&gt;
+
+</description>
+        <pubDate>Tue, 13 Aug 2019 00:00:00 +0200</pubDate>
+        <link>http://localhost:4000/docker%20containers/2019/08/13/Docker-Commands.html</link>
+        <guid isPermaLink="true">http://localhost:4000/docker%20containers/2019/08/13/Docker-Commands.html</guid>
+        
+        <category>Docker</category>
+        
+        <category>SSH</category>
+        
+        
+        <category>Docker Containers</category>
+        
+      </item>
+    
+      <item>
+        <title>Nvidia Graphic commands</title>
+        <description>&lt;ul&gt;
+    &lt;li&gt; Monitor GPU usage (live) &lt;/li&gt; 
+&lt;/ul&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;watch -n0.5 nvidia-smi
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;ul&gt;
+    &lt;li&gt; To check CUDA is installed &lt;/li&gt; 
+&lt;/ul&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;nvidia-smi
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;ul&gt;
+    &lt;li&gt; Open the link displayed on console along with token &lt;/li&gt; 
+    &lt;li&gt; Replace the IP address with external ephemeral IP or static IP of the cloud console &lt;/li&gt; 
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+</description>
+        <pubDate>Sun, 23 Jul 2017 00:00:00 +0200</pubDate>
+        <link>http://localhost:4000/nvidia/2017/07/23/Nvidia-Graphic-Commands.html</link>
+        <guid isPermaLink="true">http://localhost:4000/nvidia/2017/07/23/Nvidia-Graphic-Commands.html</guid>
+        
+        <category>Nvidia</category>
+        
+        <category>SSH</category>
+        
+        
+        <category>Nvidia</category>
+        
+      </item>
     
       <item>
         <title>Quick GIT commands</title>
