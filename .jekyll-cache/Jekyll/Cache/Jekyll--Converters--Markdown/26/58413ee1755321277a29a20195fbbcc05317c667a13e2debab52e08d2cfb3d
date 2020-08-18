@@ -1,0 +1,25 @@
+I"$<ul>
+    <li> Login to google cloud and start VM instance </li> 
+    <li>Open google cloud sdk in PC or terminal on ubuntu </li> 
+</ul>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>gcloud init
+
+</code></pre></div></div>
+<ul>
+    <li> Select the project </li> 
+    <li> Select the user  </li> 
+</ul>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>gcloud compute ssh jupyter@my-fastai-instance -- -L 8080:localhost:8080 
+
+jupyter notebook --ip=0.0.0.0 --port=8888 --no-browser 
+
+</code></pre></div></div>
+<ul>
+    <li> Open the link displayed on console along with token </li> 
+    <li> Replace the IP address with external ephemeral IP or static IP of the cloud console </li> 
+</ul>
+
+<hr />
+:ET

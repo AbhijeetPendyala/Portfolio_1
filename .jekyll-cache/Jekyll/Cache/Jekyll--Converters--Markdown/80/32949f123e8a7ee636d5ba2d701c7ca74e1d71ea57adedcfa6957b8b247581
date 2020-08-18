@@ -1,0 +1,6 @@
+I"þ<ul>
+    <li> Login to google cloud and start VM instance </li> 
+    <li> go to disks page and edit the 200gb to 500gb and restart the instance, simple. No need to add additional disk , 
+        then format and attach it to the boot disk etc</li> 
+</ul>
+:ET

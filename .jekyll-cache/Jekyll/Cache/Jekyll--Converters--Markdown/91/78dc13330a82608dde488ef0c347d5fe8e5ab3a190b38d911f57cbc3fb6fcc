@@ -1,0 +1,21 @@
+I"B<ul>
+    <li> Monitor GPU usage (live) </li> 
+</ul>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>watch -n0.5 nvidia-smi
+
+</code></pre></div></div>
+<ul>
+    <li> Monitor GPU usage </li> 
+</ul>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>nvidia-smi
+
+</code></pre></div></div>
+<ul>
+    <li> Open the link displayed on console along with token </li> 
+    <li> Replace the IP address with external ephemeral IP or static IP of the cloud console </li> 
+</ul>
+
+<hr />
+:ET
