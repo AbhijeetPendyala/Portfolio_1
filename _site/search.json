@@ -3,8 +3,16 @@
     "data" : [
      
     {
-        "title" : "code snippet test - 2017-12-21",
-        "url" : "/html/2017/12/21/test-code-snippets.html"
+        "title" : "Adding or resizing a persistent or boot disk size  - 2017-03-17",
+        "url" : "/gcp/2017/03/17/Adding-persistentdisk-GCP.html"
+    }
+    
+    ,
+    
+    
+    {
+        "title" : "Accessing GCP cloud console - 2017-03-14",
+        "url" : "/gcp/2017/03/14/Access-GCP.html"
     }
     
     ,

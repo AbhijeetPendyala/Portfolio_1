@@ -5,50 +5,68 @@
     <description>Abhijeet's blog,use Jekyll and github pages.</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 18 Aug 2020 12:37:48 +0200</pubDate>
-    <lastBuildDate>Tue, 18 Aug 2020 12:37:48 +0200</lastBuildDate>
+    <pubDate>Tue, 18 Aug 2020 13:11:09 +0200</pubDate>
+    <lastBuildDate>Tue, 18 Aug 2020 13:11:09 +0200</lastBuildDate>
     <generator>Jekyll v4.1.1</generator>
     
       <item>
-        <title>code snippet test</title>
-        <description>&lt;p&gt;This is a raw snippet:&lt;/p&gt;
+        <title>Adding or resizing a persistent or boot disk size </title>
+        <description>&lt;ul&gt;
+    &lt;li&gt; Login to google cloud and start VM instance &lt;/li&gt; 
+    &lt;li&gt; go to disks page and edit the 200gb to 500gb and restart the instance, simple. No need to add additional disk , 
+        then format and attach it to the boot disk etc&lt;/li&gt; 
+&lt;/ul&gt;
+</description>
+        <pubDate>Fri, 17 Mar 2017 00:00:00 +0100</pubDate>
+        <link>http://localhost:4000/gcp/2017/03/17/Adding-persistentdisk-GCP.html</link>
+        <guid isPermaLink="true">http://localhost:4000/gcp/2017/03/17/Adding-persistentdisk-GCP.html</guid>
+        
+        <category>GCP</category>
+        
+        <category>SSH</category>
+        
+        
+        <category>GCP</category>
+        
+      </item>
+    
+      <item>
+        <title>Accessing GCP cloud console</title>
+        <description>&lt;ul&gt;
+    &lt;li&gt; Login to google cloud and start VM instance &lt;/li&gt; 
+    &lt;li&gt;Open google cloud sdk in PC or terminal on ubuntu &lt;/li&gt; 
+&lt;/ul&gt;
 
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;hello world
-123
-This is a text snippet
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;gcloud init
+
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;ul&gt;
+    &lt;li&gt; Select the project &lt;/li&gt; 
+    &lt;li&gt; Select the user  &lt;/li&gt; 
+&lt;/ul&gt;
 
-&lt;p&gt;This is a JavaScript snippet:&lt;/p&gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;gcloud compute ssh jupyter@my-fastai-instance -- -L 8080:localhost:8080 
 
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;const add = (a, b) =&amp;gt; a + b
-const minus = (a, b) =&amp;gt; a - b
+jupyter notebook --ip=0.0.0.0 --port=8888 --no-browser 
 
-console.log(add(100,200))  // 300
-console.log(minus(100,200))  // -100
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;This is a Python snippet:&lt;/p&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;def say_hello():
-    print(&quot;hello world!&quot;)
-
-say_hello()   // &quot;hello world!&quot;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;ul&gt;
+    &lt;li&gt; Open the link displayed on console along with token &lt;/li&gt; 
+    &lt;li&gt; Replace the IP address with external ephemeral IP or static IP of the cloud console &lt;/li&gt; 
+&lt;/ul&gt;
 
 &lt;hr /&gt;
-
-&lt;p&gt;Side note comment: applied a bug fix similar to &lt;a href=&quot;https://github.com/Atlas7/atlas7.github.io/commit/6659f4a47f6ec66987adb0f683a9c6f3842252ae#diff-818954a41dbfb01af70050a459c603b9&quot;&gt;this commit&lt;/a&gt; to ensure code snippet does not collapse unexpectly upon clicking on it. This issue is tracked &lt;a href=&quot;https://github.com/jarrekk/Jalpc/issues/97&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
 </description>
-        <pubDate>Thu, 21 Dec 2017 00:00:00 +0100</pubDate>
-        <link>http://localhost:4000/html/2017/12/21/test-code-snippets.html</link>
-        <guid isPermaLink="true">http://localhost:4000/html/2017/12/21/test-code-snippets.html</guid>
+        <pubDate>Tue, 14 Mar 2017 00:00:00 +0100</pubDate>
+        <link>http://localhost:4000/gcp/2017/03/14/Access-GCP.html</link>
+        <guid isPermaLink="true">http://localhost:4000/gcp/2017/03/14/Access-GCP.html</guid>
         
-        <category>Jalpc</category>
+        <category>GCP</category>
         
-        <category>Jekyll</category>
+        <category>SSH</category>
         
         
-        <category>HTML</category>
+        <category>GCP</category>
         
       </item>
     
