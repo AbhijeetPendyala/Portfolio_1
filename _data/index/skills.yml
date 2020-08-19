@@ -2,5 +2,5 @@
 
 label: Ability
 id : cs
-aspects: Git, Pandas, Tensorflow, Pytorch, TensorRT, Scikit-learn, LIBSVM, GCP, Docker, CI/CD
-percentage: 90, 80, 75, 65, 75, 80, 90, 80, 65, 65
+aspects: Git, Pandas, Tensorflow, Pytorch, TensorRT, Scikit-learn, LIBSVM, GCP, DevOps, CI/CD, Docker
+percentage: 90, 80, 75, 65, 75, 80, 90, 80, 75, 65 , 65
