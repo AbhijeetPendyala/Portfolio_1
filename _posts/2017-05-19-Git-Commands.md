@@ -141,14 +141,35 @@ git remote set-url origin git@github.com:username/repo.git
 </ul>
 
 ```
-git rm <file-name>
+git rm --cached <file-name>
 
 ```
 
+<ul>
+    <li> To delete a branch </li>  
+</ul>
 
+```
+git branch -D <branch-name>
 
+```
 
+<ul>
+    <li> git checkout to a new branch </li>  
+</ul>
 
+```
+git checkout -b <branch-name>
+
+```
+<ul>
+    <li> to do dummy commit </li>  
+</ul>
+
+```
+git commit --allow-empty -m "message"
+
+```
 
 
 
