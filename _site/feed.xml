@@ -5,8 +5,8 @@
     <description>Abhijeet's blog,use Jekyll and github pages.</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 20 Aug 2020 13:30:34 +0200</pubDate>
-    <lastBuildDate>Thu, 20 Aug 2020 13:30:34 +0200</lastBuildDate>
+    <pubDate>Thu, 20 Aug 2020 14:04:21 +0200</pubDate>
+    <lastBuildDate>Thu, 20 Aug 2020 14:04:21 +0200</lastBuildDate>
     <generator>Jekyll v4.1.1</generator>
     
       <item>
@@ -127,6 +127,33 @@ docker start/stop CONTAINER
         
         
         <category>Docker Containers</category>
+        
+      </item>
+    
+      <item>
+        <title>Nodejs Tips</title>
+        <description>&lt;ul&gt;
+    &lt;li&gt; kill a process running on port 4000 &lt;/li&gt;  
+&lt;/ul&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;lsof -i tcp:4000
+kill -9 PID
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;hr /&gt;
+
+</description>
+        <pubDate>Sat, 23 Mar 2019 00:00:00 +0100</pubDate>
+        <link>http://localhost:4000/nodejs/2019/03/23/Nodejs.html</link>
+        <guid isPermaLink="true">http://localhost:4000/nodejs/2019/03/23/Nodejs.html</guid>
+        
+        <category>Nodejs</category>
+        
+        <category>SSH</category>
+        
+        
+        <category>Nodejs</category>
         
       </item>
     
