@@ -5,21 +5,21 @@
     i18n: company_a
   desc:
     detail:
-      <ul>
-      <li>Various implementations of 2D objection object detectors like YOLO</li>
-      <li>Yolo with Tensor-RT on jetson Nano and Tx2</li>
-      <li>Adding new objects into AI pipeline, eg. cones, bikes. Writing scripts for data augmentaion</li>
-      <li>Integrating data augmentetion scripts into Keras RetinaNet and Perception stack</li>
-      <li>3D object detection from monocular images - Literature survey and open source model(s) implementaiton</li>
-      <li>Creating new dataset for special type of object detection and solving edge cases, eg. masked cars in a parking space</li>
-      <li>Participating in autonomous driving race with donkey car</li>
-      <li>3D Lidar- models Literature survey and open source model(s) implementation</li>
-      <li>Stereo CAM for depth detection</li>
-      <li>Generating synthetic dataset for 2D, 3D object detection from CARLA simulator (Images and Lidar pointclouds)</li>
-      <li>Improving the data pipeline with scripts for Deduplication of images</li>
-      <li>EfficientDet (2d object detection) implementation</li>
-      <li>Creating dataset from parking videos (cropping, datalabeling, active learning)</li>
-      </ul>
+#      <ul>
+#      <li>Various implementations of 2D objection object detectors like YOLO</li>
+#      <li>Yolo with Tensor-RT on jetson Nano and Tx2</li>
+#      <li>Adding new objects into AI pipeline, eg. cones, bikes. Writing scripts for data augmentaion</li>
+#      <li>Integrating data augmentetion scripts into Keras RetinaNet and Perception stack</li>
+#      <li>3D object detection from monocular images - Literature survey and open source model(s) implementaiton</li>
+#      <li>Creating new dataset for special type of object detection and solving edge cases, eg. masked cars in a parking space</li>
+#      <li>Participating in autonomous driving race with donkey car</li>
+#      <li>3D Lidar- models Literature survey and open source model(s) implementation</li>
+#      <li>Stereo CAM for depth detection</li>
+#      <li>Generating synthetic dataset for 2D, 3D object detection from CARLA simulator (Images and Lidar pointclouds)</li>
+#      <li>Improving the data pipeline with scripts for Deduplication of images</li>
+#      <li>EfficientDet (2d object detection) implementation</li>
+#      <li>Creating dataset from parking videos (cropping, datalabeling, active learning)</li>
+#      </ul>
     i18n: company_a
   date:
     detail: Aug 2019 to April 2020
@@ -35,27 +35,27 @@
     i18n: company_b
   desc:
     detail:
-      <p>Data collection and pre-processing</p>
-      <ul>
-      <li>Web scraping and collection of Images</li>
-      <li>Data wrangling- cleaning images with wrong labels</li>
-      <li>Synthetic dataset generation</li>
-      <li>Keras Retinanet- BBox data preparation</li>
-      <li>Data labeling ( bounding boxes)  in lableimg</li>
-      <li>Data labeling (segmentation) for surface area</li>
-      </ul>
-      <p>Deep Learning Models</p>
-      <ul>
-      <li>Pytorch Image Regression - length prediction</li>
-      <li>Keras Image Regression -  length prediction</li>
-      <li>Multi-task learning - Images and categorical features </li>
-      <li>Key point detection - mouth and tail </li>
-      <li>OCR - reading measurements from ruler</li>
-      <li>Semantic segmentation of fish</li>
-      <li>Deploying web app on Heroku</li>
-      <li>Multi-modal Network - ( dual loss) </li>
-      <li>Conversion to javascript model to deploy on React app</li>
-      </ul>
+#      <p>Data collection and pre-processing</p>
+#      <ul>
+#      <li>Web scraping and collection of Images</li>
+#      <li>Data wrangling- cleaning images with wrong labels</li>
+#      <li>Synthetic dataset generation</li>
+#      <li>Keras Retinanet- BBox data preparation</li>
+#      <li>Data labeling ( bounding boxes)  in lableimg</li>
+#      <li>Data labeling (segmentation) for surface area</li>
+#      </ul>
+#      <p>Deep Learning Models</p>
+#      <ul>
+#      <li>Pytorch Image Regression - length prediction</li>
+#      <li>Keras Image Regression -  length prediction</li>
+#      <li>Multi-task learning - Images and categorical features </li>
+#      <li>Key point detection - mouth and tail </li>
+#      <li>OCR - reading measurements from ruler</li>
+#      <li>Semantic segmentation of fish</li>
+#      <li>Deploying web app on Heroku</li>
+#      <li>Multi-modal Network - ( dual loss) </li>
+#      <li>Conversion to javascript model to deploy on React app</li>
+#      </ul>
     i18n: company_b_desc
   date:
     detail: October 2019 to March 2020
@@ -66,59 +66,58 @@
   icon: fa-plus-square
 
 - name:
-    detail:
+    detail: Theory of Machine Learning group at Ruhr- Universität Bochum, Germany
     i18n: company_b
   desc:
     detail:
-      <ul>
-      <li>Developed a novel Non-convex optimization algorithm to attack the rise of model complexity in large-scale kernalized SVMs.
-      The algorithm was an amalgamation of fast approximate training achieved by Budget Maintenance strategies on the number of support vectors
-      and enhanced optimization scheme offered by Adaptive Coordinate Frequency method on Coordinate Descent method by a non-uniform selection of coordinate frequencies.</li>
-      <li>Devised a new stopping criterion for this non-convex problem to halt the optimization algorithm, instead of running it for certain number of epochs.</li>
-      </ul>
+#      <ul>
+#      <li>Developed a novel Non-convex optimization algorithm to attack the rise of model complexity in large-scale kernalized SVMs.
+#      The algorithm was an amalgamation of fast approximate training achieved by Budget Maintenance strategies on the number of support vectors
+#      and enhanced optimization scheme offered by Adaptive Coordinate Frequency method on Coordinate Descent method by a non-uniform selection of coordinate frequencies.</li>
+#      <li>Devised a new stopping criterion for this non-convex problem to halt the optimization algorithm, instead of running it for certain number of epochs.</li>
+#      </ul>
     i18n: company_b_desc
   date:
     detail: April 2018 to December 2018
     i18n: company_b_date
   job:
     detail: Student Researcher- Master Thesis
-     <p> Theory of Machine Learning group at Ruhr- Universität Bochum, Germany </p>
+#     <p> Theory of Machine Learning group at Ruhr- Universität Bochum, Germany </p>
     i18n: company_b_job
   icon: fa-plus-square
 
 - name:
-    detail:
+    detail: chair of ICAMS at Ruhr- Universität Bochum, Germany
     i18n: company_b
   desc:
     detail:
-      <p> Prediction of Damage and Stress hotspots with Machine Learning </p>
-      <ul>
-      <li>Worked on designing machine learning models to extract information from microstructural features obtained from damage simulation schemes of materials,
-      which has several advantages over conducting physical experiments.</li>
-      <li>Damage prediction was done using regression models on the simulation data.</li>
-      <li>The location of Stress hotspots in FCC materials under simulated plastic deformation were predicted using classification models of machine learning,
-      and the results were validated with literature</li>
-      </ul>
+#      <p> Prediction of Damage and Stress hotspots with Machine Learning </p>
+#      <ul>
+#      <li>Worked on designing machine learning models to extract information from microstructural features obtained from damage simulation schemes of materials,
+#      which has several advantages over conducting physical experiments.</li>
+#      <li>Damage prediction was done using regression models on the simulation data.</li>
+#      <li>The location of Stress hotspots in FCC materials under simulated plastic deformation were predicted using classification models of machine learning,
+#      and the results were validated with literature</li>
+#      </ul>
     i18n: company_b_desc
   date:
     detail: August 2018 to January 2019
     i18n: company_b_date
   job:
     detail: Assistant Researcher
-     <p> chair of ICAMS at Ruhr- Universität Bochum, Germany </p>
     i18n: company_b_job
   icon: fa-plus-square
 
 
 - name:
-    detail:
+    detail: Chair of Computational fluid dynamics at Ruhr- Universität Bochum, Germany
     i18n: company_b
   desc:
     detail:
-      <ul>
-      <li>Worked on machine learning techniques for prediction
-      of fluid properties on simulated data (wind turbine) from openFOAM</li>
-      </ul>
+#      <ul>
+#      <li>Worked on machine learning techniques for prediction
+#      of fluid properties on simulated data (wind turbine) from openFOAM</li>
+#      </ul>
     i18n: company_b_desc
   date:
     detail: January 2019 to March 2019
@@ -126,7 +125,7 @@
   job:
     detail:
        Assistant Researcher
-      <p> Chair of Computational fluid dynamics at Ruhr- Universität Bochum </p>
+      <p> </p>
     i18n: company_b_job
   icon: fa-plus-square
 
@@ -135,12 +134,12 @@
     i18n: company_b
   desc:
     detail:
-      <ul>
-      <li>Lead a team of 15 Associates, and was responsible for Performing Durability and Development
-      tests of Diesel, Gasoline engines and Transmissions</li>
-      <li>Worked on design and programming scripts of test cycles, engine software calibration with Di- Analyzer, HELIOS and ETAS-INCA</li>
-      <li>Exploratory data analyis of test data, reports preparation and customer presentations</li>
-      </ul>
+#      <ul>
+#      <li>Lead a team of 15 Associates, and was responsible for Performing Durability and Development
+#      tests of Diesel, Gasoline engines and Transmissions</li>
+#      <li>Worked on design and programming scripts of test cycles, engine software calibration with Di- Analyzer, HELIOS and ETAS-INCA</li>
+#      <li>Exploratory data analyis of test data, reports preparation and customer presentations</li>
+#      </ul>
     i18n: company_b_desc
   date:
     detail: July 2013 to September 2015
@@ -156,11 +155,11 @@
     i18n: company_b
   desc:
     detail:
-      <ul>
-      <li>Developed a novel multistep homogenization method (Mathematical model) and programmed it in MATLAB to compute composite properties of Hybrid composite system;
-      carbon fiber polymers reinforced with cylindrical nano-reinforcements such as carbon nanotubes.
-      </li>
-      </ul>
+#      <ul>
+#      <li>Developed a novel multistep homogenization method (Mathematical model) and programmed it in MATLAB to compute composite properties of Hybrid composite system;
+#      carbon fiber polymers reinforced with cylindrical nano-reinforcements such as carbon nanotubes.
+#      </li>
+#      </ul>
     i18n: company_b_desc
   date:
     detail: July 2012 to December 2012
