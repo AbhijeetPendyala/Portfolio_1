@@ -37,6 +37,13 @@
   img: /static/assets/img/landing/oft_1_c.png
   desc: A Deep learning method to predict 3D bounding boxes on monocular images
 
+- name: EfficientDet for object detection
+  i18n: cpython
+  gh_user: AbhijeetPendyala
+  repo: EfficientDet_2D
+  img: /static/assets/img/landing/efficientdet.png
+  desc: A Deep learning method to predict 2D bounding boxes
+
 - name: Non-convex optimization
   i18n: cpython
   gh_user: AbhijeetPendyala
