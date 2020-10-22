@@ -171,9 +171,14 @@ git commit --allow-empty -m "message"
 
 ```
 
+<ul>
+    <li> Histroy log in console </li>  
+</ul>
 
+```
+git  log --all --decorate --online --graph
 
-
+```
 
 
 
