@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Adding or resizing a persistent or boot disk size "
+title:  "Adding or resizing a persistent or boot disk size on Google cloud instance"
 date:   2017-03-17
 desc: "Go to commands"
 keywords: "GCP, Commandline, SSH"
