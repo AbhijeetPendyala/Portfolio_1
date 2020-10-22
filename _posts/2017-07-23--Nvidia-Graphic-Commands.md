@@ -31,3 +31,12 @@ nvidia-smi
 
 
 ---
+<ul>
+    <li> list the gpus </li>
+</ul>
+
+```
+
+nvidia-smi --list-gpus
+
+```
