@@ -181,12 +181,30 @@ git  log --all --decorate --online --graph
 ```
 
 
+<ul>
+    <li> Remember credentials for 1 hour (3600 seconds):</li>  
+</ul>
 
+```
+git config --global credential.helper 'cache --timeout=3600' 
 
+```
 
+<ul>
+    <li> Disabling cache</li>
+</ul>
 
+```
+git config --global --unset credential.helper
 
+``` 
+<ul>
+    <li> Export a repo as a an archive without .git </li>
+</ul>
 
+```
+git archive --prefix= ADDITIONAL_PREFIX_INSIDE_ARCHIVE BRANCH_NAME -o OUTPUT_FILE.zip
 
+``` 
 ---
 
