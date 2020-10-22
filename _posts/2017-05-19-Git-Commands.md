@@ -208,3 +208,15 @@ git archive --prefix= ADDITIONAL_PREFIX_INSIDE_ARCHIVE BRANCH_NAME -o OUTPUT_FIL
 ``` 
 ---
 
+
+<ul>
+    <li> Duplicate a repository without forking it </li>  
+</ul>
+
+```
+
+git clone --bare https://github.com/user/sample.git
+cd sample.git
+git push --mirror https://github.com/user/newrepo.git
+
+```
