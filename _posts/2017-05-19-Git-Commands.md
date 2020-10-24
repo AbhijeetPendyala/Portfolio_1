@@ -101,6 +101,15 @@ git checkout -- <file>
 ```
 
 <ul>
+    <li> Discard all local changes to all files permanently: </li>  
+</ul>
+
+```
+git reset --hard
+
+```
+
+<ul>
     <li> Check concise commit history </li>  
 </ul>
 
@@ -155,11 +164,20 @@ git rm --cached <file-name>
 ```
 
 <ul>
-    <li> To delete a branch </li>  
+    <li> To delete a local branch </li>  
 </ul>
 
 ```
 git branch -D <branch-name>
+
+```
+
+<ul>
+    <li> To delete a remote branch </li>  
+</ul>
+
+```
+git push origin --delete <branch-name>
 
 ```
 
