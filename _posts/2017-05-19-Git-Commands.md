@@ -92,6 +92,24 @@ git reset --soft HEAD~1
 
 
 <ul>
+    <li> To revert back changes on a uncommited file (permanently) </li>  
+</ul>
+
+```
+git checkout -- <file>
+
+```
+
+<ul>
+    <li> To revert back changes on a uncommited file (permanently) </li>  
+</ul>
+
+```
+git checkout -- <file>
+
+```
+
+<ul>
     <li> Check concise commit history </li>  
 </ul>
 
