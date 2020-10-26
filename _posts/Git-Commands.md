@@ -191,11 +191,11 @@ git checkout -b <branch-name>
 ```
 
 <ul>
-    <li> Push the <new_name> local branch and reset the upstream branch </li>  
+    <li> Push the  new_name local branch and reset the upstream branch </li>  
 </ul>
 
 ```
-git push origin -u <new_name>
+git push origin -u new_name
 
 ```
 <ul>
