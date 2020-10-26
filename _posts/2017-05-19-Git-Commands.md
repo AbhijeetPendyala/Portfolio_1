@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Quick GIT commands"
-date:   2017-05-19
+date:   2017-06-19
 desc: "Go to commands"
 keywords: "GCP, Commandline, SSH"
 categories: [GCP]
