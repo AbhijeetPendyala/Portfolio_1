@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Quick GIT commands"
-date:   2017-05-19
+#date:   2017-05-19
 desc: "Go to commands"
 keywords: "GCP, Commandline, SSH"
 categories: [GCP]
@@ -101,7 +101,7 @@ git checkout -- <file>
 ```
 
 <ul>
-    <li> Discard all local changes to all files permanently: </li>  
+    <li> Discard all local changes to all files permanently </li>  
 </ul>
 
 ```
@@ -187,6 +187,15 @@ git push origin --delete <branch-name>
 
 ```
 git checkout -b <branch-name>
+
+```
+
+<ul>
+    <li> Push the <new_name> local branch and reset the upstream branch </li>  
+</ul>
+
+```
+git push origin -u <new_name>
 
 ```
 <ul>
