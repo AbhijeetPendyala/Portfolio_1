@@ -10,7 +10,7 @@ icon: icon-html
 ---
 <ul>
     <li> Login to coursera account </li> 
-    <li> Login into ai37 or other conda environment with coursera dl installed </li> 
-    <li> go to disks page and edit the 200gb to 500gb and restart the instance, simple. No need to add additional disk , 
-        then format and attach it to the boot disk etc</li> 
+    <li> Login into ai37 or other conda environment where coursera dl installed </li> 
+    <li> copy the cauth value of the course from browser. Right click in chrome on, 
+         on th course page after login-> go to inspect->application->cookies->cauth </li> 
 </ul>
