@@ -11,7 +11,7 @@ icon: icon-html
 <ul>
     <li> Login to coursera account </li> 
     <li> Login into ai37 or other conda environment where coursera dl installed </li> 
-    <li> copy the cauth value of the course from browser. Right click in chrome on, 
-         on th course page after login-> go to inspect->application->cookies->cauth </li> 
+    <li> copy the cauth value of the course from browser. Right click in chrome 
+         on the course page after login-> go to inspect->application->cookies->cauth </li> 
     <li> coursera-dl -ca <cauth value> <course-name> </li> 
 </ul>
