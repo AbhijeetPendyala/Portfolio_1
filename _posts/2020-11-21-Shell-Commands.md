@@ -8,11 +8,32 @@ categories: [GCP]
 tags: [SSH]
 icon: icon-html
 ---
+
 <ul>
     <li> Check where a package is installed </li>
 </ul>
 
 ```
 which jupyter 
+
+```
+
+<ul>
+    <li> list pip installed packages </li>
+</ul>
+
+```
+python -m pip list --format=columns --user
+
+```
+
+<ul>
+    <li> list pip installed packages </li>
+</ul>
+
+```
+python 
+import sys
+sys.executable
 
 ```
