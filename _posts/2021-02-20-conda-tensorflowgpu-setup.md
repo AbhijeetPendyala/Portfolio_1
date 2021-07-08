@@ -41,6 +41,16 @@ conda install seaborn
 ```
 
 <ul>
+    <li> Alternate approach </li>
+</ul>
+
+```
+conda install python==3.7
+conda install tensorflow-gpu==1.15.0
+conda install -c conda-forge jupyterlab
+
+```
+<ul>
     <li> Open juypter notebook and check if tensorflow-gpu import is working </li>
 </ul>
 
