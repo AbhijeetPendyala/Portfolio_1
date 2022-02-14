@@ -296,3 +296,45 @@ git stash pop
 
 ```
 
+<ul>
+    <li> Pull files from remote, without overwriting local files (hopefully there are no merge conflicts </li>  
+</ul>
+
+```
+
+git stash
+git pull
+git stash pop
+
+
+```
+
+<ul>
+    <li> Undo git stash pop (if there were merge conflicts). Note: Luckily git stash pop does not change the stash in the case of a conflict!   </li>  
+</ul>
+
+```
+
+
+To unstage the merge conflicts: git reset HEAD . (note the trailing dot)
+To save the conflicted merge (just in case): git stash
+To return to master: git checkout master
+To pull latest changes: git fetch upstream; git merge upstream/master
+To correct my new branch: git checkout new-branch; git rebase master
+To apply the correct stashed changes (now 2nd on the stack): git stash apply stash@{1}
+
+```
+
+<ul>
+    <li> see all commits on all branches that aren't pushed yet </li>  
+</ul>
+
+```
+
+git log --branches --not --remotes
+
+
+```
+
+
+
