@@ -256,3 +256,43 @@ cd sample.git
 git push --mirror https://github.com/user/newrepo.git
 
 ```
+
+<ul>
+    <li> Transfer changes from dev to main branch (Approach-1: Merging) </li>  
+</ul>
+
+```
+
+git checkout master
+git pull
+git checkout dev
+git merge main 
+or git cherry-pick {commit-hash}
+git push
+
+```
+
+<ul>
+    <li> local dev_abhi branch and 'origin/dev_abhi' have diverged, how to 'undiverge' branches'? </li>  
+</ul>
+
+```
+
+git reset --hard origin/dev_abhi
+
+
+```
+
+<ul>
+    <li> How to commit my current changes to a different branch in Git </li>  
+</ul>
+
+```
+
+git stash
+git checkout other-branch
+git stash pop
+
+
+```
+
