@@ -336,5 +336,17 @@ git log --branches --not --remotes
 
 ```
 
+<ul>
+    <li> Add a line to .gitignore without opening the file </li>  
+</ul>
+
+```
+
+echo 'application/cache' >> .gitignore
+
+
+```
+
+
 
 
