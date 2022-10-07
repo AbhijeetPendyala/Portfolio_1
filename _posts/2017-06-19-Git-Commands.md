@@ -348,5 +348,26 @@ echo 'application/cache' >> .gitignore
 ```
 
 
+<ul>
+    <li> Delete a branch locally </li>  
+</ul>
+
+```
+
+git branch -d <branch_name>
+git branch -D <branch_name>
 
 
+```
+
+<ul>
+    <li> Delete a remote branch </li>  
+</ul>
+
+```
+
+git push -d <remote_name> <branchname>
+git branch -d <branchname>
+
+
+```
