@@ -37,3 +37,13 @@ import sys
 sys.executable
 
 ```
+
+
+<ul>
+    <li> size of files in a folder </li>
+</ul>
+
+```
+du -sh /*
+
+```

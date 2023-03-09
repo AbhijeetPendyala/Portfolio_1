@@ -371,3 +371,59 @@ git branch -d <branchname>
 
 
 ```
+
+<ul>
+    <li> How to check merge conflicts of two branches, without merging them? Suppose you are on the master branch and you would like to test if the dev branch can be merged without conflict into the master.</li>  
+</ul>
+
+```
+
+# In the master branch
+git merge dev --no-ff --no-commit
+
+```
+
+```
+After that, you will be able to know if there's a conflict or not.
+To return in a normal situation, just abort the merge:
+
+git merge --abort
+
+```
+
+
+<ul>
+    <li> copy all files in a directory from another branch </li>  
+</ul>
+
+```
+
+git checkout otherbranch -- dirname
+
+
+```
+
+<ul>
+    <li> Delete a file or folder only from remote </li>  
+</ul>
+
+```
+
+git rm --cache filename
+git commit -m "message"
+git push 
+
+
+```
+
+<ul>
+    <li> Delete a file or folder only from local </li>  
+</ul>
+
+```
+
+git rm filename
+git commit -m "message"
+git push 
+
+```
